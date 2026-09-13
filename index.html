@@ -1,52 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <!-- Brand / Logo -->
-            <a class="navbar-brand" href="#">Blog Wwbsite</a>
+      <div class="container-fluid">
+        <!-- Brand / Logo -->
+        <a class="navbar-brand" href="#">Blog Application</a>
 
-            <!-- Toggler for Mobile View -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <!-- Toggler for Mobile View -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links & Buttons -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Left-aligned Links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+          <!-- Right-aligned Sign In / Sign Up Buttons -->
+          <div class="d-flex align-items-center">
+            <button
+              type="button"
+              class="btn btn-link px-3 me-2 text-decoration-none"
+            >
+              Sign In
             </button>
-
-            <!-- Navbar Links & Buttons -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Left-aligned Links -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-
-                <!-- Right-aligned Sign In / Sign Up Buttons -->
-                <div class="d-flex align-items-center">
-                    <button type="button" class="btn btn-link px-3 me-2 text-decoration-none">
-                        Sign In
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                        Sign Up
-                    </button>
-                </div>
-            </div>
+            <button type="button" class="btn btn-primary">Sign Up</button>
+          </div>
         </div>
+      </div>
     </nav>
-<!-- hero section -->
-    
+  
+                                                                                                                        
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- hero section -->
+
+    <div
+      class="row flex-lg-row-justify contant center align-items-center g-5 py-5"
+    >
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img
+          src="./image/blog img.jpg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+         <i> Welcome Blog Application</i>
+        </h1>
+        <p class="lead">
+          A home for your thoughts Share ideas with the world Where ideas come
+          to life Turn thoughts into stories Share. Read. Connect. Let your
+          words flow Easy blogging, made simple Clean and straightforward Make
+          your ideas heard
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
+      </div>
+    </div>
+
+            <!-- cards -->
+
+            <div class="card-group">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title"> 🤖AI & the Future of Work</h3>
+                    <p class="card-text">The Future of Artificial Intelligence</p>
+                    <p class="card-text"><small class="text-body-secondary"> Discover how AI is transforming the way we work, communicate, and solve everyday problems.</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title"> ✨Lifestyle</h3>
+                    <p class="card-text">Simple Habits for a Better Life</p>
+                    <p class="card-text"><small class="text-body-secondary"> Small daily changes can make a big difference. Explore practical habits to improve your productivity and well-being.</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">💼 Business</h3>
+                    <p class="card-text"></p> How to Grow Your Business Online</p>
+                    <p class="card-text"><small class="text-body-secondary">Learn effective digital strategies to attract customers, build your brand, and grow your business in today’s competitive market.</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
